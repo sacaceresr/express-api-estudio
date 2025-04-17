@@ -4,5 +4,8 @@ export default {
     FAILED_LOGIN: "Usuario o contraseña incorrectos",
     STATUS_USER: "Usuario inactivo",
     MSG_500: "Error interno del servidor",
-    ERROR: "Error"
+    ERROR: "Error",
+    ERROR_TOKEN: "No se pudo generar el token",
+    SUCCESS_LOGIN: "Login exitoso",
+    MSG_200: "ok"
 }
