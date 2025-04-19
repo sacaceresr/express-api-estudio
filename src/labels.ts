@@ -7,5 +7,8 @@ export default {
     ERROR: "Error",
     ERROR_TOKEN: "No se pudo generar el token",
     SUCCESS_LOGIN: "Login exitoso",
-    MSG_200: "ok"
+    MSG_200: "ok",
+    AUTHORIZATION: "Authorization",
+    TOKEN_FAILED: "Token no valido",
+    EMPTY_FIELD: "Campo requerido"
 }
