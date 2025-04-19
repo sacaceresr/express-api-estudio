@@ -9,5 +9,6 @@ export default {
     SUCCESS_LOGIN: "Login exitoso",
     MSG_200: "ok",
     AUTHORIZATION: "Authorization",
-    TOKEN_FAILED: "Token no valido"
+    TOKEN_FAILED: "Token no valido",
+    EMPTY_FIELD: "Campo requerido"
 }
