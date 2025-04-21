@@ -36,6 +36,10 @@ class Login {
     get _status(): boolean {
         return this.status
     }
+
+    set _password(password: string) {
+        this.password = password
+    }
 }
 
 const LoginModel = getModelForClass(Login);
