@@ -10,5 +10,6 @@ export default {
     MSG_200: "ok",
     AUTHORIZATION: "Authorization",
     TOKEN_FAILED: "Token no valido",
-    EMPTY_FIELD: "Campo requerido"
+    EMPTY_FIELD: "Campo requerido",
+    SUCCES_REGISTER: "Registro exitoso"
 }
