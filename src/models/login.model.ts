@@ -5,13 +5,13 @@ class Login {
     @prop({required: true, trim: true, unique: true, type: () => String})
     private username: string
 
-    @prop({required: true, trim: true, type: () => String, minlength: 7, maxlength: 15})
+    @prop({required: true, trim: true, type: () => String})
     private password: string
 
     @prop({required: true, type: () => String})
     private role: string
 
-    @prop({required: true, type: () => Boolean})
+    @prop({required: true, type: () => Boolean, default: true})
     private status: boolean
 
     constructor(username: string, password: string, role: string, status: boolean) {

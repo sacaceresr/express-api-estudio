@@ -3,6 +3,7 @@ import labels from "../labels";
 import db_connection from "../database/config";
 import loginRoutes from "../routes/login.routes";
 import userRoutes from "../routes/user.routes";
+import cors from "cors";
 
 
 class Server {
@@ -18,7 +19,7 @@ class Server {
         this.port = process.env.PORT || "3000"
 
         this.login_path = '/api/login'
-        this.user_path = '/api/user'
+        this.user_path = '/api/users'
 
         this.connectDB()
         this.middlewares()
@@ -39,7 +40,7 @@ class Server {
     }
 
     middlewares(){
-        //TODO: CORS
+        this.app.use(cors())
         this.app.use(express.json())
     }
 }
